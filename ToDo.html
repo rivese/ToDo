@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>To Do</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="ToDo.js"></script>
+    <link href="ToDo.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header>To Do's</header>
+        <div role="main">
+            <form name="collectToDos">
+                <div id="collectToDosDiv">
+                    <input type="text" id="toDoInput" name="toDoInput" placeholder="Write it down so you don't forget..." />
+                    <button type="button" id="addToTop">Get It Done</button>
+                    <button type="button" id="addToBottom">Procrastinate</button>
+                </div>
+            </form>
+            <div id="displayToDos">
+                <ul id="toDoList"></ul>
+            </div>
+        </div>
+</body>
+</html>
+
